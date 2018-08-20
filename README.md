@@ -1,6 +1,7 @@
 # 2018中国高校大数据挑战赛
 
 复赛A榜 9113，B榜 9122
+<br/><br/>
 本人新人，代码结构和流程简单易懂，欢迎交流与学习~~
 
 ---
@@ -43,8 +44,8 @@ Train1    用户1-10    标签11-17
 ```
 
 **1.3 模型选择**
+XGBoost
 ```
-XGBoost：
 params = {'booster': 'gbtree',
           'objective':'rank:pairwise',
           'eta': 0.03,
